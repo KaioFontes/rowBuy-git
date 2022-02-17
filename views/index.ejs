@@ -1,0 +1,64 @@
+<%- include('partials/header.ejs'); %>
+
+<div class="modal-description-product" id="modal">
+    <div class="modal">
+        <div class="modal-header">
+            <button onclick="closeModal()">X</button>
+        </div>
+        <div class="body-modal">
+            <div class="aside-left">
+                    <img src="/img/produto-01-teste.jpg" alt="">
+            </div>
+            <div class="aside-right">
+                <h2>Samsung S10 128 GB</h2>
+                <p class="textPromotion">De: R$ 999,99</p>
+                <p class="textPromotion02">Por: R$ 799,99</p>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat odit ipsam minima quibusdam suscipit aliquam sit distinctio vitae deserunt voluptate quo sapiente ut, dolores fugit, animi natus recusandae, inventore impedit!</p>
+                <p class="contactVendedor">Nome do vendedor: Joãozin</p>
+                <p class="contactVendedor">Para compra entre em contato com o vendedor: (11) 0000-0000</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('partials/nav.ejs'); %>
+<main>
+    <section>
+        <div class="conjuntoProdutos">
+            <div class="cardProduto">
+                <div class="cardHeader">
+                    <img src="/img/produto-01-teste.jpg" alt="">
+                </div>
+                <div class="bodyCard">
+                    <h3>Samsung S10 128 GB</h3>
+                    <p class="textPromotion">De: R$ 999,99</p>
+                    <p class="textPromotion02">Por: R$ 799,99</p>
+                    <button type="button" onclick="callModal()" class="conhecerProdutos">Conhecer</button>
+                </div>
+            </div>
+            <div class="cardProduto">
+                <div class="cardHeader">
+                    <img src="/img/produto-01-teste.jpg" alt="">
+                </div>
+                <div class="bodyCard">
+                    <h3>Samsung S10 128 GB</h3>
+                    <p class="textPromotion">De: R$ 999,99</p>
+                    <p class="textPromotion02">Por: R$ 799,99</p>
+                    <button type="button" class="conhecerProdutos">Conhecer</button>
+                </div>
+            </div>
+            <div class="cardProduto">
+                <div class="cardHeader">
+                    <img src="/img/produto-01-teste.jpg" alt="">
+                </div>
+                <div class="bodyCard">
+                    <h3>Samsung S10 128 GB</h3>
+                    <p class="textPromotion">De: R$ 999,99</p>
+                    <p class="textPromotion02">Por: R$ 799,99</p>
+                    <button type="button" class="conhecerProdutos">Conhecer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<%- include('partials/footer.ejs'); %>
